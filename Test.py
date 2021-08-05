@@ -39,19 +39,9 @@
 # print(a, type(a))
 # c=a & b сравниваем пересечение общих элементов
 #c&=a
-a={}
-b="dfdsf dfgg rtty 9 4 8 5 7 utyu"
-b=b.split()
-print(b)
-a[1]=b[0]
-a[2]=b[1]
-a[3]=b[2]
-a[4]=[]
-print(a)
-for i in b[3:8]:
-    a[4].append(int(i))
-print(a)
-del(a[2])
-print(a)
-print(len(a))
-print(1 in a, 2 in a, 5 not in a)
+def amb():
+   print('Hello')
+   print('good')
+   print('perro')
+amb()
+amb()
